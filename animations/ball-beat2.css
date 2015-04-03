@@ -1,0 +1,37 @@
+@keyframes ball-beat2 {
+  /* line 5, ../src/animations/ball-beat2.scss */
+  50% {
+    opacity: 0.2;
+    transform: scale(0.75);
+  }
+
+  /* line 9, ../src/animations/ball-beat2.scss */
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* line 17, ../src/animations/ball-beat2.scss */
+.ball-beat2 > div {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation: ball-beat2 0.7s 0s infinite linear;
+  -moz-animation: ball-beat2 0.7s 0s infinite linear;
+  -o-animation: ball-beat2 0.7s 0s infinite linear;
+  -ms-animation: ball-beat2 0.7s 0s infinite linear;
+  animation: ball-beat2 0.7s 0s infinite linear;
+}
+/* line 25, ../src/animations/ball-beat2.scss */
+.ball-beat2 > div:nth-child(2n-1) {
+  -webkit-animation-delay: 0.35s !important;
+  -moz-animation-delay: 0.35s !important;
+  -o-animation-delay: 0.35s !important;
+  -ms-animation-delay: 0.35s !important;
+  animation-delay: 0.35s !important;
+}

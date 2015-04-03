@@ -1,0 +1,42 @@
+@keyframes cube-transition {
+  /* line 8, ../src/animations/cube-transition.scss */
+  25% {
+    transform: translateX(50px) scale(0.5) rotate(-90deg);
+  }
+
+  /* line 11, ../src/animations/cube-transition.scss */
+  50% {
+    transform: translate(50px, 50px) rotate(-180deg);
+  }
+
+  /* line 14, ../src/animations/cube-transition.scss */
+  75% {
+    transform: translateY(50px) scale(0.5) rotate(-270deg);
+  }
+
+  /* line 17, ../src/animations/cube-transition.scss */
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* line 22, ../src/animations/cube-transition.scss */
+.cube-transition {
+  position: relative;
+  transform: translate(-25px, -25px);
+}
+/* line 26, ../src/animations/cube-transition.scss */
+.cube-transition > div {
+  animation-fill-mode: both;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  animation: cube-transition 1.6s 0s infinite ease-in-out;
+}
+/* line 37, ../src/animations/cube-transition.scss */
+.cube-transition > div:last-child {
+  animation-delay: -0.8s;
+}

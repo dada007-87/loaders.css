@@ -1,0 +1,47 @@
+@import "browser-prefix-list";
+
+@mixin animation-name ($x) {
+  @each $b in $browserPrefixList {
+    #{$b}animation-name: $x;
+  }
+}
+@mixin animation-duration ($x) {
+  @each $b in $browserPrefixList {
+    #{$b}animation-duration: $x;
+  }
+}
+@mixin animation-timing-function ($x) {
+  @each $b in $browserPrefixList {
+    #{$b}animation-timing-function: $x;
+  }
+}
+@mixin animation-delay ($x) {
+  @each $b in $browserPrefixList {
+    #{$b}animation-delay: $x;
+  }
+}
+@mixin animation-iteration-count ($x) {
+  @each $b in $browserPrefixList {
+    #{$b}animation-iteration-count: $x;
+  }
+}
+@mixin animation-direction ($x) {
+  @each $b in $browserPrefixList {
+    #{$b}animation-direction: $x;
+  }
+}
+@mixin animation-fill-mode ($x) {
+  @each $b in $browserPrefixList {
+    #{$b}animation-fill-mode: $x;
+  }
+}
+@mixin animation-play-state ($x) {
+  @each $b in $browserPrefixList {
+    #{$b}animation-play-state: $x;
+  }
+}
+@mixin animation($x) {
+  @each $b in $browserPrefixList {
+    #{$b}animation: $x;
+  }
+}

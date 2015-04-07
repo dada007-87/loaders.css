@@ -1,0 +1,35 @@
+@import "browser-prefix-list";
+
+//generic transform
+@mixin transform($transforms) {
+  @each $b in $browserPrefixList {
+    #{$b}transform: $transforms;
+  }
+}
+
+//transform origin
+@mixin transform-origin($origin) {
+  @each $b in $browserPrefixList {
+    #{$b}transform-origin: $origin;
+  }
+}
+
+// rotate
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+// scale
+@mixin scale($scale) {
+  @include transform(scale($scale));
+}
+
+// translate
+@mixin translate($x, $y) {
+  @include transform(translate($x, $y));
+}
+
+// skew
+@mixin skew($x, $y) {
+  @include transform(skew(#{$x}deg, #{$y}deg));
+}

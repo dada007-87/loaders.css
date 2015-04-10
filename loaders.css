@@ -12,7 +12,6 @@
  * Dots
  */
 @-webkit-keyframes scale {
-  /* line 5, src/animations/ball-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -22,8 +21,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-pulse.scss */
   45% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -33,8 +30,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-pulse.scss */
   80% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -45,9 +40,7 @@
     filter: alpha(opacity=100);
   }
 }
-
 @-moz-keyframes scale {
-  /* line 5, src/animations/ball-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -57,8 +50,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-pulse.scss */
   45% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -68,8 +59,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-pulse.scss */
   80% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -80,9 +69,7 @@
     filter: alpha(opacity=100);
   }
 }
-
 @-ms-keyframes scale {
-  /* line 5, src/animations/ball-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -92,8 +79,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-pulse.scss */
   45% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -103,8 +88,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-pulse.scss */
   80% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -115,9 +98,7 @@
     filter: alpha(opacity=100);
   }
 }
-
 @-o-keyframes scale {
-  /* line 5, src/animations/ball-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -127,8 +108,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-pulse.scss */
   45% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -138,8 +117,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-pulse.scss */
   80% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -150,9 +127,7 @@
     filter: alpha(opacity=100);
   }
 }
-
 @keyframes scale {
-  /* line 5, src/animations/ball-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -162,8 +137,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-pulse.scss */
   45% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -173,8 +146,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-pulse.scss */
   80% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -185,7 +156,6 @@
     filter: alpha(opacity=100);
   }
 }
-
 /* line 22, src/animations/ball-pulse.scss */
 .ball-pulse > div:nth-child(0) {
   -webkit-animation: scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
@@ -220,7 +190,7 @@
 }
 /* line 31, src/animations/ball-pulse.scss */
 .ball-pulse > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -230,7 +200,6 @@
 }
 
 @-webkit-keyframes ball-pulse-sync {
-  /* line 7, src/animations/ball-pulse-sync.scss */
   33% {
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
@@ -238,8 +207,6 @@
     -ms-transform: translateY(10px);
     transform: translateY(10px);
   }
-
-  /* line 10, src/animations/ball-pulse-sync.scss */
   66% {
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
@@ -247,8 +214,6 @@
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-
-  /* line 13, src/animations/ball-pulse-sync.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -257,9 +222,7 @@
     transform: translateY(0);
   }
 }
-
 @-moz-keyframes ball-pulse-sync {
-  /* line 7, src/animations/ball-pulse-sync.scss */
   33% {
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
@@ -267,8 +230,6 @@
     -ms-transform: translateY(10px);
     transform: translateY(10px);
   }
-
-  /* line 10, src/animations/ball-pulse-sync.scss */
   66% {
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
@@ -276,8 +237,6 @@
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-
-  /* line 13, src/animations/ball-pulse-sync.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -286,9 +245,7 @@
     transform: translateY(0);
   }
 }
-
 @-ms-keyframes ball-pulse-sync {
-  /* line 7, src/animations/ball-pulse-sync.scss */
   33% {
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
@@ -296,8 +253,6 @@
     -ms-transform: translateY(10px);
     transform: translateY(10px);
   }
-
-  /* line 10, src/animations/ball-pulse-sync.scss */
   66% {
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
@@ -305,8 +260,6 @@
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-
-  /* line 13, src/animations/ball-pulse-sync.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -315,9 +268,7 @@
     transform: translateY(0);
   }
 }
-
 @-o-keyframes ball-pulse-sync {
-  /* line 7, src/animations/ball-pulse-sync.scss */
   33% {
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
@@ -325,8 +276,6 @@
     -ms-transform: translateY(10px);
     transform: translateY(10px);
   }
-
-  /* line 10, src/animations/ball-pulse-sync.scss */
   66% {
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
@@ -334,8 +283,6 @@
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-
-  /* line 13, src/animations/ball-pulse-sync.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -344,9 +291,7 @@
     transform: translateY(0);
   }
 }
-
 @keyframes ball-pulse-sync {
-  /* line 7, src/animations/ball-pulse-sync.scss */
   33% {
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
@@ -354,8 +299,6 @@
     -ms-transform: translateY(10px);
     transform: translateY(10px);
   }
-
-  /* line 10, src/animations/ball-pulse-sync.scss */
   66% {
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
@@ -363,8 +306,6 @@
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-
-  /* line 13, src/animations/ball-pulse-sync.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -373,7 +314,6 @@
     transform: translateY(0);
   }
 }
-
 /* line 20, src/animations/ball-pulse-sync.scss */
 .ball-pulse-sync > div:nth-child(0) {
   -webkit-animation: ball-pulse-sync 0.6s 0s infinite ease-in-out;
@@ -408,7 +348,7 @@
 }
 /* line 29, src/animations/ball-pulse-sync.scss */
 .ball-pulse-sync > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -418,7 +358,6 @@
 }
 
 @-webkit-keyframes ball-scale {
-  /* line 5, src/animations/ball-scale.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -426,8 +365,6 @@
     -ms-transform: scale(0);
     transform: scale(0);
   }
-
-  /* line 8, src/animations/ball-scale.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -438,9 +375,7 @@
     filter: alpha(opacity=0);
   }
 }
-
 @-moz-keyframes ball-scale {
-  /* line 5, src/animations/ball-scale.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -448,8 +383,6 @@
     -ms-transform: scale(0);
     transform: scale(0);
   }
-
-  /* line 8, src/animations/ball-scale.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -460,9 +393,7 @@
     filter: alpha(opacity=0);
   }
 }
-
 @-ms-keyframes ball-scale {
-  /* line 5, src/animations/ball-scale.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -470,8 +401,6 @@
     -ms-transform: scale(0);
     transform: scale(0);
   }
-
-  /* line 8, src/animations/ball-scale.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -482,9 +411,7 @@
     filter: alpha(opacity=0);
   }
 }
-
 @-o-keyframes ball-scale {
-  /* line 5, src/animations/ball-scale.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -492,8 +419,6 @@
     -ms-transform: scale(0);
     transform: scale(0);
   }
-
-  /* line 8, src/animations/ball-scale.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -504,9 +429,7 @@
     filter: alpha(opacity=0);
   }
 }
-
 @keyframes ball-scale {
-  /* line 5, src/animations/ball-scale.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -514,8 +437,6 @@
     -ms-transform: scale(0);
     transform: scale(0);
   }
-
-  /* line 8, src/animations/ball-scale.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -526,10 +447,9 @@
     filter: alpha(opacity=0);
   }
 }
-
 /* line 16, src/animations/ball-scale.scss */
 .ball-scale > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -546,7 +466,6 @@
 }
 
 @-webkit-keyframes rotate {
-  /* line 5, src/animations/ball-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -554,8 +473,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 8, src/animations/ball-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -563,8 +480,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 11, src/animations/ball-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -573,9 +488,7 @@
     transform: rotate(360deg);
   }
 }
-
 @-moz-keyframes rotate {
-  /* line 5, src/animations/ball-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -583,8 +496,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 8, src/animations/ball-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -592,8 +503,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 11, src/animations/ball-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -602,9 +511,7 @@
     transform: rotate(360deg);
   }
 }
-
 @-ms-keyframes rotate {
-  /* line 5, src/animations/ball-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -612,8 +519,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 8, src/animations/ball-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -621,8 +526,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 11, src/animations/ball-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -631,9 +534,7 @@
     transform: rotate(360deg);
   }
 }
-
 @-o-keyframes rotate {
-  /* line 5, src/animations/ball-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -641,8 +542,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 8, src/animations/ball-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -650,8 +549,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 11, src/animations/ball-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -660,9 +557,7 @@
     transform: rotate(360deg);
   }
 }
-
 @keyframes rotate {
-  /* line 5, src/animations/ball-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -670,8 +565,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 8, src/animations/ball-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -679,8 +572,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 11, src/animations/ball-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -689,14 +580,13 @@
     transform: rotate(360deg);
   }
 }
-
 /* line 16, src/animations/ball-rotate.scss */
 .ball-rotate {
   position: relative;
 }
 /* line 19, src/animations/ball-rotate.scss */
 .ball-rotate > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -714,7 +604,7 @@
 }
 /* line 29, src/animations/ball-rotate.scss */
 .ball-rotate > div:before, .ball-rotate > div:after {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -736,7 +626,6 @@
 }
 
 @-webkit-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -744,8 +633,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -753,8 +640,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -763,9 +648,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @-moz-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -773,8 +656,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -782,8 +663,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -792,9 +671,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @-ms-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -802,8 +679,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -811,8 +686,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -821,9 +694,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @-o-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -831,8 +702,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -840,8 +709,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -850,9 +717,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -860,8 +725,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -869,8 +732,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -879,16 +740,15 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 /* line 18, src/animations/ball-clip-rotate.scss */
 .ball-clip-rotate > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
   margin: 2px;
   animation-fill-mode: both;
-  border: 2px solid white;
+  border: 2px solid #fff;
   border-bottom-color: transparent;
   height: 25px;
   width: 25px;
@@ -902,7 +762,6 @@
 }
 
 @-webkit-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-pulse.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -910,8 +769,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-pulse.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -919,8 +776,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-pulse.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -929,9 +784,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @-moz-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-pulse.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -939,8 +792,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-pulse.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -948,8 +799,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-pulse.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -958,9 +807,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @-ms-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-pulse.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -968,8 +815,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-pulse.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -977,8 +822,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-pulse.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -987,9 +830,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @-o-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-pulse.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -997,8 +838,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-pulse.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -1006,8 +845,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-pulse.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -1016,9 +853,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-pulse.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -1026,8 +861,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-pulse.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -1035,8 +868,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-pulse.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -1045,9 +876,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @keyframes scale {
-  /* line 17, src/animations/ball-clip-rotate-pulse.scss */
   30% {
     -webkit-transform: scale(0.3);
     -moz-transform: scale(0.3);
@@ -1055,8 +884,6 @@
     -ms-transform: scale(0.3);
     transform: scale(0.3);
   }
-
-  /* line 20, src/animations/ball-clip-rotate-pulse.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1065,7 +892,6 @@
     transform: scale(1);
   }
 }
-
 /* line 25, src/animations/ball-clip-rotate-pulse.scss */
 .ball-clip-rotate-pulse {
   position: relative;
@@ -1085,7 +911,7 @@
 }
 /* line 37, src/animations/ball-clip-rotate-pulse.scss */
 .ball-clip-rotate-pulse > div:first-child {
-  background: white;
+  background: #fff;
   height: 16px;
   width: 16px;
   top: 9px;
@@ -1099,12 +925,12 @@
 /* line 46, src/animations/ball-clip-rotate-pulse.scss */
 .ball-clip-rotate-pulse > div:last-child {
   position: absolute;
-  border: 2px solid white;
+  border: 2px solid #fff;
   width: 30px;
   height: 30px;
   background: transparent;
   border: 2px solid;
-  border-color: white transparent white transparent;
+  border-color: #fff transparent #fff transparent;
   -webkit-animation: rotate 1s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
   -moz-animation: rotate 1s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
   -o-animation: rotate 1s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
@@ -1118,7 +944,6 @@
 }
 
 @-webkit-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-multiple.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -1126,8 +951,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-multiple.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -1135,8 +958,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-multiple.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -1145,9 +966,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @-moz-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-multiple.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -1155,8 +974,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-multiple.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -1164,8 +981,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-multiple.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -1174,9 +989,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @-ms-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-multiple.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -1184,8 +997,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-multiple.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -1193,8 +1004,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-multiple.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -1203,9 +1012,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @-o-keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-multiple.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -1213,8 +1020,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-multiple.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -1222,8 +1027,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-multiple.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -1232,9 +1035,7 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 @keyframes rotate {
-  /* line 5, src/animations/ball-clip-rotate-multiple.scss */
   0% {
     -webkit-transform: rotate(0deg) scale(1);
     -moz-transform: rotate(0deg) scale(1);
@@ -1242,8 +1043,6 @@
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
   }
-
-  /* line 8, src/animations/ball-clip-rotate-multiple.scss */
   50% {
     -webkit-transform: rotate(180deg) scale(0.6);
     -moz-transform: rotate(180deg) scale(0.6);
@@ -1251,8 +1050,6 @@
     -ms-transform: rotate(180deg) scale(0.6);
     transform: rotate(180deg) scale(0.6);
   }
-
-  /* line 11, src/animations/ball-clip-rotate-multiple.scss */
   100% {
     -webkit-transform: rotate(360deg) scale(1);
     -moz-transform: rotate(360deg) scale(1);
@@ -1261,7 +1058,6 @@
     transform: rotate(360deg) scale(1);
   }
 }
-
 /* line 16, src/animations/ball-clip-rotate-multiple.scss */
 .ball-clip-rotate-multiple {
   position: relative;
@@ -1272,7 +1068,7 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  border: 2px solid white;
+  border: 2px solid #fff;
   border-bottom-color: transparent;
   border-top-color: transparent;
   border-radius: 100%;
@@ -1296,7 +1092,7 @@
   -o-animation-duration: 0.5s;
   -ms-animation-duration: 0.5s;
   animation-duration: 0.5s;
-  border-color: white transparent white transparent;
+  border-color: #fff transparent #fff transparent;
   -webkit-animation-direction: reverse;
   -moz-animation-direction: reverse;
   -o-animation-direction: reverse;
@@ -1305,7 +1101,6 @@
 }
 
 @-webkit-keyframes ball-scale-ripple {
-  /* line 5, src/animations/ball-scale-ripple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1315,8 +1110,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-scale-ripple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1326,16 +1119,12 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-scale-ripple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 @-moz-keyframes ball-scale-ripple {
-  /* line 5, src/animations/ball-scale-ripple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1345,8 +1134,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-scale-ripple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1356,16 +1143,12 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-scale-ripple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 @-ms-keyframes ball-scale-ripple {
-  /* line 5, src/animations/ball-scale-ripple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1375,8 +1158,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-scale-ripple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1386,16 +1167,12 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-scale-ripple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 @-o-keyframes ball-scale-ripple {
-  /* line 5, src/animations/ball-scale-ripple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1405,8 +1182,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-scale-ripple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1416,16 +1191,12 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-scale-ripple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 @keyframes ball-scale-ripple {
-  /* line 5, src/animations/ball-scale-ripple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1435,8 +1206,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 9, src/animations/ball-scale-ripple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1446,21 +1215,18 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 13, src/animations/ball-scale-ripple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 /* line 20, src/animations/ball-scale-ripple.scss */
 .ball-scale-ripple > div {
   animation-fill-mode: both;
   height: 50px;
   width: 50px;
   border-radius: 100%;
-  border: 2px solid white;
+  border: 2px solid #fff;
   -webkit-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
   -moz-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
   -o-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
@@ -1469,7 +1235,6 @@
 }
 
 @-webkit-keyframes ball-scale-ripple-multiple {
-  /* line 7, src/animations/ball-scale-ripple-multiple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1479,8 +1244,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 11, src/animations/ball-scale-ripple-multiple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1490,16 +1253,12 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 15, src/animations/ball-scale-ripple-multiple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 @-moz-keyframes ball-scale-ripple-multiple {
-  /* line 7, src/animations/ball-scale-ripple-multiple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1509,8 +1268,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 11, src/animations/ball-scale-ripple-multiple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1520,16 +1277,12 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 15, src/animations/ball-scale-ripple-multiple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 @-ms-keyframes ball-scale-ripple-multiple {
-  /* line 7, src/animations/ball-scale-ripple-multiple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1539,8 +1292,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 11, src/animations/ball-scale-ripple-multiple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1550,16 +1301,12 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 15, src/animations/ball-scale-ripple-multiple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 @-o-keyframes ball-scale-ripple-multiple {
-  /* line 7, src/animations/ball-scale-ripple-multiple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1569,8 +1316,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 11, src/animations/ball-scale-ripple-multiple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1580,16 +1325,12 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 15, src/animations/ball-scale-ripple-multiple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 @keyframes ball-scale-ripple-multiple {
-  /* line 7, src/animations/ball-scale-ripple-multiple.scss */
   0% {
     -webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
@@ -1599,8 +1340,6 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 11, src/animations/ball-scale-ripple-multiple.scss */
   70% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1610,14 +1349,11 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 15, src/animations/ball-scale-ripple-multiple.scss */
   100% {
     opacity: 0;
     filter: alpha(opacity=0);
   }
 }
-
 /* line 28, src/animations/ball-scale-ripple-multiple.scss */
 .ball-scale-ripple-multiple {
   position: relative;
@@ -1668,7 +1404,7 @@
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  border: 2px solid white;
+  border: 2px solid #fff;
   -webkit-animation: ball-scale-ripple-multiple 1.25s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
   -moz-animation: ball-scale-ripple-multiple 1.25s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
   -o-animation: ball-scale-ripple-multiple 1.25s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
@@ -1677,7 +1413,6 @@
 }
 
 @-webkit-keyframes ball-beat {
-  /* line 5, src/animations/ball-beat.scss */
   50% {
     opacity: 0.2;
     filter: alpha(opacity=20);
@@ -1687,8 +1422,6 @@
     -ms-transform: scale(0.75);
     transform: scale(0.75);
   }
-
-  /* line 9, src/animations/ball-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -1699,9 +1432,7 @@
     transform: scale(1);
   }
 }
-
 @-moz-keyframes ball-beat {
-  /* line 5, src/animations/ball-beat.scss */
   50% {
     opacity: 0.2;
     filter: alpha(opacity=20);
@@ -1711,8 +1442,6 @@
     -ms-transform: scale(0.75);
     transform: scale(0.75);
   }
-
-  /* line 9, src/animations/ball-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -1723,9 +1452,7 @@
     transform: scale(1);
   }
 }
-
 @-ms-keyframes ball-beat {
-  /* line 5, src/animations/ball-beat.scss */
   50% {
     opacity: 0.2;
     filter: alpha(opacity=20);
@@ -1735,8 +1462,6 @@
     -ms-transform: scale(0.75);
     transform: scale(0.75);
   }
-
-  /* line 9, src/animations/ball-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -1747,9 +1472,7 @@
     transform: scale(1);
   }
 }
-
 @-o-keyframes ball-beat {
-  /* line 5, src/animations/ball-beat.scss */
   50% {
     opacity: 0.2;
     filter: alpha(opacity=20);
@@ -1759,8 +1482,6 @@
     -ms-transform: scale(0.75);
     transform: scale(0.75);
   }
-
-  /* line 9, src/animations/ball-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -1771,9 +1492,7 @@
     transform: scale(1);
   }
 }
-
 @keyframes ball-beat {
-  /* line 5, src/animations/ball-beat.scss */
   50% {
     opacity: 0.2;
     filter: alpha(opacity=20);
@@ -1783,8 +1502,6 @@
     -ms-transform: scale(0.75);
     transform: scale(0.75);
   }
-
-  /* line 9, src/animations/ball-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -1795,10 +1512,9 @@
     transform: scale(1);
   }
 }
-
 /* line 17, src/animations/ball-beat.scss */
 .ball-beat > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -1821,7 +1537,6 @@
 }
 
 @-webkit-keyframes ball-scale-multiple {
-  /* line 7, src/animations/ball-scale-multiple.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -1831,14 +1546,10 @@
     opacity: 0;
     filter: alpha(opacity=0);
   }
-
-  /* line 11, src/animations/ball-scale-multiple.scss */
   5% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 14, src/animations/ball-scale-multiple.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1849,9 +1560,7 @@
     filter: alpha(opacity=0);
   }
 }
-
 @-moz-keyframes ball-scale-multiple {
-  /* line 7, src/animations/ball-scale-multiple.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -1861,14 +1570,10 @@
     opacity: 0;
     filter: alpha(opacity=0);
   }
-
-  /* line 11, src/animations/ball-scale-multiple.scss */
   5% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 14, src/animations/ball-scale-multiple.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1879,9 +1584,7 @@
     filter: alpha(opacity=0);
   }
 }
-
 @-ms-keyframes ball-scale-multiple {
-  /* line 7, src/animations/ball-scale-multiple.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -1891,14 +1594,10 @@
     opacity: 0;
     filter: alpha(opacity=0);
   }
-
-  /* line 11, src/animations/ball-scale-multiple.scss */
   5% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 14, src/animations/ball-scale-multiple.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1909,9 +1608,7 @@
     filter: alpha(opacity=0);
   }
 }
-
 @-o-keyframes ball-scale-multiple {
-  /* line 7, src/animations/ball-scale-multiple.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -1921,14 +1618,10 @@
     opacity: 0;
     filter: alpha(opacity=0);
   }
-
-  /* line 11, src/animations/ball-scale-multiple.scss */
   5% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 14, src/animations/ball-scale-multiple.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1939,9 +1632,7 @@
     filter: alpha(opacity=0);
   }
 }
-
 @keyframes ball-scale-multiple {
-  /* line 7, src/animations/ball-scale-multiple.scss */
   0% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -1951,14 +1642,10 @@
     opacity: 0;
     filter: alpha(opacity=0);
   }
-
-  /* line 11, src/animations/ball-scale-multiple.scss */
   5% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
-
-  /* line 14, src/animations/ball-scale-multiple.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1969,7 +1656,6 @@
     filter: alpha(opacity=0);
   }
 }
-
 /* line 28, src/animations/ball-scale-multiple.scss */
 .ball-scale-multiple {
   position: relative;
@@ -1997,7 +1683,7 @@
 }
 /* line 34, src/animations/ball-scale-multiple.scss */
 .ball-scale-multiple > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -2019,7 +1705,6 @@
 }
 
 @-webkit-keyframes ball-triangle-path-1 {
-  /* line 7, src/animations/ball-triangle-trace.scss */
   33% {
     -webkit-transform: translate(25px, -50px);
     -moz-transform: translate(25px, -50px);
@@ -2027,8 +1712,6 @@
     -ms-transform: translate(25px, -50px);
     transform: translate(25px, -50px);
   }
-
-  /* line 10, src/animations/ball-triangle-trace.scss */
   66% {
     -webkit-transform: translate(50px, 0px);
     -moz-transform: translate(50px, 0px);
@@ -2036,8 +1719,6 @@
     -ms-transform: translate(50px, 0px);
     transform: translate(50px, 0px);
   }
-
-  /* line 13, src/animations/ball-triangle-trace.scss */
   100% {
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
@@ -2046,9 +1727,7 @@
     transform: translate(0px, 0px);
   }
 }
-
 @-moz-keyframes ball-triangle-path-1 {
-  /* line 7, src/animations/ball-triangle-trace.scss */
   33% {
     -webkit-transform: translate(25px, -50px);
     -moz-transform: translate(25px, -50px);
@@ -2056,8 +1735,6 @@
     -ms-transform: translate(25px, -50px);
     transform: translate(25px, -50px);
   }
-
-  /* line 10, src/animations/ball-triangle-trace.scss */
   66% {
     -webkit-transform: translate(50px, 0px);
     -moz-transform: translate(50px, 0px);
@@ -2065,8 +1742,6 @@
     -ms-transform: translate(50px, 0px);
     transform: translate(50px, 0px);
   }
-
-  /* line 13, src/animations/ball-triangle-trace.scss */
   100% {
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
@@ -2075,9 +1750,7 @@
     transform: translate(0px, 0px);
   }
 }
-
 @-ms-keyframes ball-triangle-path-1 {
-  /* line 7, src/animations/ball-triangle-trace.scss */
   33% {
     -webkit-transform: translate(25px, -50px);
     -moz-transform: translate(25px, -50px);
@@ -2085,8 +1758,6 @@
     -ms-transform: translate(25px, -50px);
     transform: translate(25px, -50px);
   }
-
-  /* line 10, src/animations/ball-triangle-trace.scss */
   66% {
     -webkit-transform: translate(50px, 0px);
     -moz-transform: translate(50px, 0px);
@@ -2094,8 +1765,6 @@
     -ms-transform: translate(50px, 0px);
     transform: translate(50px, 0px);
   }
-
-  /* line 13, src/animations/ball-triangle-trace.scss */
   100% {
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
@@ -2104,9 +1773,7 @@
     transform: translate(0px, 0px);
   }
 }
-
 @-o-keyframes ball-triangle-path-1 {
-  /* line 7, src/animations/ball-triangle-trace.scss */
   33% {
     -webkit-transform: translate(25px, -50px);
     -moz-transform: translate(25px, -50px);
@@ -2114,8 +1781,6 @@
     -ms-transform: translate(25px, -50px);
     transform: translate(25px, -50px);
   }
-
-  /* line 10, src/animations/ball-triangle-trace.scss */
   66% {
     -webkit-transform: translate(50px, 0px);
     -moz-transform: translate(50px, 0px);
@@ -2123,8 +1788,6 @@
     -ms-transform: translate(50px, 0px);
     transform: translate(50px, 0px);
   }
-
-  /* line 13, src/animations/ball-triangle-trace.scss */
   100% {
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
@@ -2133,9 +1796,7 @@
     transform: translate(0px, 0px);
   }
 }
-
 @keyframes ball-triangle-path-1 {
-  /* line 7, src/animations/ball-triangle-trace.scss */
   33% {
     -webkit-transform: translate(25px, -50px);
     -moz-transform: translate(25px, -50px);
@@ -2143,8 +1804,6 @@
     -ms-transform: translate(25px, -50px);
     transform: translate(25px, -50px);
   }
-
-  /* line 10, src/animations/ball-triangle-trace.scss */
   66% {
     -webkit-transform: translate(50px, 0px);
     -moz-transform: translate(50px, 0px);
@@ -2152,8 +1811,6 @@
     -ms-transform: translate(50px, 0px);
     transform: translate(50px, 0px);
   }
-
-  /* line 13, src/animations/ball-triangle-trace.scss */
   100% {
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
@@ -2162,9 +1819,7 @@
     transform: translate(0px, 0px);
   }
 }
-
 @keyframes ball-triangle-path-2 {
-  /* line 19, src/animations/ball-triangle-trace.scss */
   33% {
     -webkit-transform: translate(25px, 50px);
     -moz-transform: translate(25px, 50px);
@@ -2172,8 +1827,6 @@
     -ms-transform: translate(25px, 50px);
     transform: translate(25px, 50px);
   }
-
-  /* line 22, src/animations/ball-triangle-trace.scss */
   66% {
     -webkit-transform: translate(-25px, 50px);
     -moz-transform: translate(-25px, 50px);
@@ -2181,8 +1834,6 @@
     -ms-transform: translate(-25px, 50px);
     transform: translate(-25px, 50px);
   }
-
-  /* line 25, src/animations/ball-triangle-trace.scss */
   100% {
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
@@ -2191,9 +1842,7 @@
     transform: translate(0px, 0px);
   }
 }
-
 @keyframes ball-triangle-path-3 {
-  /* line 31, src/animations/ball-triangle-trace.scss */
   33% {
     -webkit-transform: translate(-50px, 0px);
     -moz-transform: translate(-50px, 0px);
@@ -2201,8 +1850,6 @@
     -ms-transform: translate(-50px, 0px);
     transform: translate(-50px, 0px);
   }
-
-  /* line 34, src/animations/ball-triangle-trace.scss */
   66% {
     -webkit-transform: translate(-25px, -50px);
     -moz-transform: translate(-25px, -50px);
@@ -2210,8 +1857,6 @@
     -ms-transform: translate(-25px, -50px);
     transform: translate(-25px, -50px);
   }
-
-  /* line 37, src/animations/ball-triangle-trace.scss */
   100% {
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
@@ -2220,7 +1865,6 @@
     transform: translate(0px, 0px);
   }
 }
-
 /* line 56, src/animations/ball-triangle-trace.scss */
 .ball-triangle-path {
   position: relative;
@@ -2321,7 +1965,7 @@
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  border: 1px solid white;
+  border: 1px solid #fff;
 }
 /* line 70, src/animations/ball-triangle-trace.scss */
 .ball-triangle-path > div:nth-of-type(1) {
@@ -2338,7 +1982,6 @@
 }
 
 @-webkit-keyframes ball-pulse-rise-even {
-  /* line 7, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2346,8 +1989,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 10, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2355,8 +1996,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 13, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2364,8 +2003,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 16, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2373,8 +2010,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 19, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2388,9 +2023,7 @@
     transform: scale(1);
   }
 }
-
 @-moz-keyframes ball-pulse-rise-even {
-  /* line 7, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2398,8 +2031,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 10, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2407,8 +2038,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 13, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2416,8 +2045,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 16, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2425,8 +2052,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 19, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2440,9 +2065,7 @@
     transform: scale(1);
   }
 }
-
 @-ms-keyframes ball-pulse-rise-even {
-  /* line 7, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2450,8 +2073,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 10, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2459,8 +2080,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 13, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2468,8 +2087,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 16, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2477,8 +2094,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 19, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2492,9 +2107,7 @@
     transform: scale(1);
   }
 }
-
 @-o-keyframes ball-pulse-rise-even {
-  /* line 7, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2502,8 +2115,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 10, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2511,8 +2122,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 13, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2520,8 +2129,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 16, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2529,8 +2136,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 19, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2544,9 +2149,7 @@
     transform: scale(1);
   }
 }
-
 @keyframes ball-pulse-rise-even {
-  /* line 7, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2554,8 +2157,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 10, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2563,8 +2164,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 13, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2572,8 +2171,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 16, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2581,8 +2178,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 19, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2596,9 +2191,7 @@
     transform: scale(1);
   }
 }
-
 @-webkit-keyframes ball-pulse-rise-odd {
-  /* line 26, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2606,8 +2199,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 29, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2615,8 +2206,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 32, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2624,8 +2213,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 35, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2633,8 +2220,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 38, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2648,9 +2233,7 @@
     transform: scale(0.75);
   }
 }
-
 @-moz-keyframes ball-pulse-rise-odd {
-  /* line 26, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2658,8 +2241,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 29, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2667,8 +2248,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 32, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2676,8 +2255,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 35, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2685,8 +2262,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 38, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2700,9 +2275,7 @@
     transform: scale(0.75);
   }
 }
-
 @-ms-keyframes ball-pulse-rise-odd {
-  /* line 26, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2710,8 +2283,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 29, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2719,8 +2290,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 32, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2728,8 +2297,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 35, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2737,8 +2304,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 38, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2752,9 +2317,7 @@
     transform: scale(0.75);
   }
 }
-
 @-o-keyframes ball-pulse-rise-odd {
-  /* line 26, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2762,8 +2325,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 29, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2771,8 +2332,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 32, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2780,8 +2339,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 35, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2789,8 +2346,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 38, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2804,9 +2359,7 @@
     transform: scale(0.75);
   }
 }
-
 @keyframes ball-pulse-rise-odd {
-  /* line 26, src/animations/ball-pulse-rise.scss */
   0% {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
@@ -2814,8 +2367,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 29, src/animations/ball-pulse-rise.scss */
   25% {
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
@@ -2823,8 +2374,6 @@
     -ms-transform: translateY(30px);
     transform: translateY(30px);
   }
-
-  /* line 32, src/animations/ball-pulse-rise.scss */
   50% {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -2832,8 +2381,6 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-
-  /* line 35, src/animations/ball-pulse-rise.scss */
   75% {
     -webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
@@ -2841,8 +2388,6 @@
     -ms-transform: translateY(-30px);
     transform: translateY(-30px);
   }
-
-  /* line 38, src/animations/ball-pulse-rise.scss */
   100% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -2856,10 +2401,9 @@
     transform: scale(0.75);
   }
 }
-
 /* line 46, src/animations/ball-pulse-rise.scss */
 .ball-pulse-rise > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -2905,199 +2449,179 @@
 }
 
 @-webkit-keyframes ball-grid-beat {
-  /* line 5, src/animations/ball-grid-beat.scss */
   50% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 8, src/animations/ball-grid-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 @-moz-keyframes ball-grid-beat {
-  /* line 5, src/animations/ball-grid-beat.scss */
   50% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 8, src/animations/ball-grid-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 @-ms-keyframes ball-grid-beat {
-  /* line 5, src/animations/ball-grid-beat.scss */
   50% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 8, src/animations/ball-grid-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 @-o-keyframes ball-grid-beat {
-  /* line 5, src/animations/ball-grid-beat.scss */
   50% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 8, src/animations/ball-grid-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 @keyframes ball-grid-beat {
-  /* line 5, src/animations/ball-grid-beat.scss */
   50% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 8, src/animations/ball-grid-beat.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 /* line 23, src/animations/ball-grid-beat.scss */
 .ball-grid-beat {
   width: 57px;
 }
 /* line 15, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(1) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6s;
-  -moz-animation-duration: random(100)/1000.6s;
-  -o-animation-duration: random(100)/1000.6s;
-  -ms-animation-duration: random(100)/1000.6s;
-  animation-duration: random(100)/1000.6s;
+  -webkit-animation-delay: 0.68s;
+  -moz-animation-delay: 0.68s;
+  -o-animation-delay: 0.68s;
+  -ms-animation-delay: 0.68s;
+  animation-delay: 0.68s;
+  -webkit-animation-duration: 1.3s;
+  -moz-animation-duration: 1.3s;
+  -o-animation-duration: 1.3s;
+  -ms-animation-duration: 1.3s;
+  animation-duration: 1.3s;
 }
 /* line 15, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(2) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6s;
-  -moz-animation-duration: random(100)/1000.6s;
-  -o-animation-duration: random(100)/1000.6s;
-  -ms-animation-duration: random(100)/1000.6s;
-  animation-duration: random(100)/1000.6s;
+  -webkit-animation-delay: 0.33s;
+  -moz-animation-delay: 0.33s;
+  -o-animation-delay: 0.33s;
+  -ms-animation-delay: 0.33s;
+  animation-delay: 0.33s;
+  -webkit-animation-duration: 0.69s;
+  -moz-animation-duration: 0.69s;
+  -o-animation-duration: 0.69s;
+  -ms-animation-duration: 0.69s;
+  animation-duration: 0.69s;
 }
 /* line 15, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(3) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6s;
-  -moz-animation-duration: random(100)/1000.6s;
-  -o-animation-duration: random(100)/1000.6s;
-  -ms-animation-duration: random(100)/1000.6s;
-  animation-duration: random(100)/1000.6s;
+  -webkit-animation-delay: 0.41s;
+  -moz-animation-delay: 0.41s;
+  -o-animation-delay: 0.41s;
+  -ms-animation-delay: 0.41s;
+  animation-delay: 0.41s;
+  -webkit-animation-duration: 1.45s;
+  -moz-animation-duration: 1.45s;
+  -o-animation-duration: 1.45s;
+  -ms-animation-duration: 1.45s;
+  animation-duration: 1.45s;
 }
 /* line 15, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(4) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6s;
-  -moz-animation-duration: random(100)/1000.6s;
-  -o-animation-duration: random(100)/1000.6s;
-  -ms-animation-duration: random(100)/1000.6s;
-  animation-duration: random(100)/1000.6s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-duration: 1.12s;
+  -moz-animation-duration: 1.12s;
+  -o-animation-duration: 1.12s;
+  -ms-animation-duration: 1.12s;
+  animation-duration: 1.12s;
 }
 /* line 15, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(5) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6s;
-  -moz-animation-duration: random(100)/1000.6s;
-  -o-animation-duration: random(100)/1000.6s;
-  -ms-animation-duration: random(100)/1000.6s;
-  animation-duration: random(100)/1000.6s;
+  -webkit-animation-delay: 0.07s;
+  -moz-animation-delay: 0.07s;
+  -o-animation-delay: 0.07s;
+  -ms-animation-delay: 0.07s;
+  animation-delay: 0.07s;
+  -webkit-animation-duration: 1.53s;
+  -moz-animation-duration: 1.53s;
+  -o-animation-duration: 1.53s;
+  -ms-animation-duration: 1.53s;
+  animation-duration: 1.53s;
 }
 /* line 15, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(6) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6s;
-  -moz-animation-duration: random(100)/1000.6s;
-  -o-animation-duration: random(100)/1000.6s;
-  -ms-animation-duration: random(100)/1000.6s;
-  animation-duration: random(100)/1000.6s;
+  -webkit-animation-delay: 0.52s;
+  -moz-animation-delay: 0.52s;
+  -o-animation-delay: 0.52s;
+  -ms-animation-delay: 0.52s;
+  animation-delay: 0.52s;
+  -webkit-animation-duration: 1.22s;
+  -moz-animation-duration: 1.22s;
+  -o-animation-duration: 1.22s;
+  -ms-animation-duration: 1.22s;
+  animation-duration: 1.22s;
 }
 /* line 15, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(7) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6s;
-  -moz-animation-duration: random(100)/1000.6s;
-  -o-animation-duration: random(100)/1000.6s;
-  -ms-animation-duration: random(100)/1000.6s;
-  animation-duration: random(100)/1000.6s;
+  -webkit-animation-delay: 0.01s;
+  -moz-animation-delay: 0.01s;
+  -o-animation-delay: 0.01s;
+  -ms-animation-delay: 0.01s;
+  animation-delay: 0.01s;
+  -webkit-animation-duration: 0.82s;
+  -moz-animation-duration: 0.82s;
+  -o-animation-duration: 0.82s;
+  -ms-animation-duration: 0.82s;
+  animation-duration: 0.82s;
 }
 /* line 15, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(8) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6s;
-  -moz-animation-duration: random(100)/1000.6s;
-  -o-animation-duration: random(100)/1000.6s;
-  -ms-animation-duration: random(100)/1000.6s;
-  animation-duration: random(100)/1000.6s;
+  -webkit-animation-delay: 0.08s;
+  -moz-animation-delay: 0.08s;
+  -o-animation-delay: 0.08s;
+  -ms-animation-delay: 0.08s;
+  animation-delay: 0.08s;
+  -webkit-animation-duration: 0.78s;
+  -moz-animation-duration: 0.78s;
+  -o-animation-duration: 0.78s;
+  -ms-animation-duration: 0.78s;
+  animation-duration: 0.78s;
 }
 /* line 15, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div:nth-child(9) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6s;
-  -moz-animation-duration: random(100)/1000.6s;
-  -o-animation-duration: random(100)/1000.6s;
-  -ms-animation-duration: random(100)/1000.6s;
-  animation-duration: random(100)/1000.6s;
+  -webkit-animation-delay: 0.09s;
+  -moz-animation-delay: 0.09s;
+  -o-animation-delay: 0.09s;
+  -ms-animation-delay: 0.09s;
+  animation-delay: 0.09s;
+  -webkit-animation-duration: 1.19s;
+  -moz-animation-duration: 1.19s;
+  -o-animation-duration: 1.19s;
+  -ms-animation-duration: 1.19s;
+  animation-duration: 1.19s;
 }
 /* line 27, src/animations/ball-grid-beat.scss */
 .ball-grid-beat > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -3122,7 +2646,6 @@
 }
 
 @-webkit-keyframes ball-grid-pulse {
-  /* line 5, src/animations/ball-grid-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3130,8 +2653,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/ball-grid-pulse.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -3141,8 +2662,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 12, src/animations/ball-grid-pulse.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3153,9 +2672,7 @@
     filter: alpha(opacity=100);
   }
 }
-
 @-moz-keyframes ball-grid-pulse {
-  /* line 5, src/animations/ball-grid-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3163,8 +2680,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/ball-grid-pulse.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -3174,8 +2689,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 12, src/animations/ball-grid-pulse.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3186,9 +2699,7 @@
     filter: alpha(opacity=100);
   }
 }
-
 @-ms-keyframes ball-grid-pulse {
-  /* line 5, src/animations/ball-grid-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3196,8 +2707,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/ball-grid-pulse.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -3207,8 +2716,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 12, src/animations/ball-grid-pulse.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3219,9 +2726,7 @@
     filter: alpha(opacity=100);
   }
 }
-
 @-o-keyframes ball-grid-pulse {
-  /* line 5, src/animations/ball-grid-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3229,8 +2734,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/ball-grid-pulse.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -3240,8 +2743,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 12, src/animations/ball-grid-pulse.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3252,9 +2753,7 @@
     filter: alpha(opacity=100);
   }
 }
-
 @keyframes ball-grid-pulse {
-  /* line 5, src/animations/ball-grid-pulse.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3262,8 +2761,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/ball-grid-pulse.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -3273,8 +2770,6 @@
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 12, src/animations/ball-grid-pulse.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3285,95 +2780,130 @@
     filter: alpha(opacity=100);
   }
 }
-
-/* line 29, src/animations/ball-grid-pulse.scss */
+/* line 28, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse {
   width: 57px;
 }
 /* line 20, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(1) {
-  animation-delays: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6 + s;
-  -moz-animation-duration: random(100)/1000.6 + s;
-  -o-animation-duration: random(100)/1000.6 + s;
-  -ms-animation-duration: random(100)/1000.6 + s;
-  animation-duration: random(100)/1000.6 + s;
+  -webkit-animation-delay: 0.06s;
+  -moz-animation-delay: 0.06s;
+  -o-animation-delay: 0.06s;
+  -ms-animation-delay: 0.06s;
+  animation-delay: 0.06s;
+  -webkit-animation-duration: 1.33s;
+  -moz-animation-duration: 1.33s;
+  -o-animation-duration: 1.33s;
+  -ms-animation-duration: 1.33s;
+  animation-duration: 1.33s;
 }
 /* line 20, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(2) {
-  animation-delays: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6 + s;
-  -moz-animation-duration: random(100)/1000.6 + s;
-  -o-animation-duration: random(100)/1000.6 + s;
-  -ms-animation-duration: random(100)/1000.6 + s;
-  animation-duration: random(100)/1000.6 + s;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -o-animation-delay: 0.8s;
+  -ms-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  -webkit-animation-duration: 1.23s;
+  -moz-animation-duration: 1.23s;
+  -o-animation-duration: 1.23s;
+  -ms-animation-duration: 1.23s;
+  animation-duration: 1.23s;
 }
 /* line 20, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(3) {
-  animation-delays: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6 + s;
-  -moz-animation-duration: random(100)/1000.6 + s;
-  -o-animation-duration: random(100)/1000.6 + s;
-  -ms-animation-duration: random(100)/1000.6 + s;
-  animation-duration: random(100)/1000.6 + s;
+  -webkit-animation-delay: -0.05s;
+  -moz-animation-delay: -0.05s;
+  -o-animation-delay: -0.05s;
+  -ms-animation-delay: -0.05s;
+  animation-delay: -0.05s;
+  -webkit-animation-duration: 1.35s;
+  -moz-animation-duration: 1.35s;
+  -o-animation-duration: 1.35s;
+  -ms-animation-duration: 1.35s;
+  animation-duration: 1.35s;
 }
 /* line 20, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(4) {
-  animation-delays: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6 + s;
-  -moz-animation-duration: random(100)/1000.6 + s;
-  -o-animation-duration: random(100)/1000.6 + s;
-  -ms-animation-duration: random(100)/1000.6 + s;
-  animation-duration: random(100)/1000.6 + s;
+  -webkit-animation-delay: 0.45s;
+  -moz-animation-delay: 0.45s;
+  -o-animation-delay: 0.45s;
+  -ms-animation-delay: 0.45s;
+  animation-delay: 0.45s;
+  -webkit-animation-duration: 0.62s;
+  -moz-animation-duration: 0.62s;
+  -o-animation-duration: 0.62s;
+  -ms-animation-duration: 0.62s;
+  animation-duration: 0.62s;
 }
 /* line 20, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(5) {
-  animation-delays: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6 + s;
-  -moz-animation-duration: random(100)/1000.6 + s;
-  -o-animation-duration: random(100)/1000.6 + s;
-  -ms-animation-duration: random(100)/1000.6 + s;
-  animation-duration: random(100)/1000.6 + s;
+  -webkit-animation-delay: 0.71s;
+  -moz-animation-delay: 0.71s;
+  -o-animation-delay: 0.71s;
+  -ms-animation-delay: 0.71s;
+  animation-delay: 0.71s;
+  -webkit-animation-duration: 0.64s;
+  -moz-animation-duration: 0.64s;
+  -o-animation-duration: 0.64s;
+  -ms-animation-duration: 0.64s;
+  animation-duration: 0.64s;
 }
 /* line 20, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(6) {
-  animation-delays: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6 + s;
-  -moz-animation-duration: random(100)/1000.6 + s;
-  -o-animation-duration: random(100)/1000.6 + s;
-  -ms-animation-duration: random(100)/1000.6 + s;
-  animation-duration: random(100)/1000.6 + s;
+  -webkit-animation-delay: 0.74s;
+  -moz-animation-delay: 0.74s;
+  -o-animation-delay: 0.74s;
+  -ms-animation-delay: 0.74s;
+  animation-delay: 0.74s;
+  -webkit-animation-duration: 0.76s;
+  -moz-animation-duration: 0.76s;
+  -o-animation-duration: 0.76s;
+  -ms-animation-duration: 0.76s;
+  animation-duration: 0.76s;
 }
 /* line 20, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(7) {
-  animation-delays: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6 + s;
-  -moz-animation-duration: random(100)/1000.6 + s;
-  -o-animation-duration: random(100)/1000.6 + s;
-  -ms-animation-duration: random(100)/1000.6 + s;
-  animation-duration: random(100)/1000.6 + s;
+  -webkit-animation-delay: 0.71s;
+  -moz-animation-delay: 0.71s;
+  -o-animation-delay: 0.71s;
+  -ms-animation-delay: 0.71s;
+  animation-delay: 0.71s;
+  -webkit-animation-duration: 1.42s;
+  -moz-animation-duration: 1.42s;
+  -o-animation-duration: 1.42s;
+  -ms-animation-duration: 1.42s;
+  animation-duration: 1.42s;
 }
 /* line 20, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(8) {
-  animation-delays: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6 + s;
-  -moz-animation-duration: random(100)/1000.6 + s;
-  -o-animation-duration: random(100)/1000.6 + s;
-  -ms-animation-duration: random(100)/1000.6 + s;
-  animation-duration: random(100)/1000.6 + s;
+  -webkit-animation-delay: 0.52s;
+  -moz-animation-delay: 0.52s;
+  -o-animation-delay: 0.52s;
+  -ms-animation-delay: 0.52s;
+  animation-delay: 0.52s;
+  -webkit-animation-duration: 1.22s;
+  -moz-animation-duration: 1.22s;
+  -o-animation-duration: 1.22s;
+  -ms-animation-duration: 1.22s;
+  animation-duration: 1.22s;
 }
 /* line 20, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div:nth-child(9) {
-  animation-delays: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.6 + s;
-  -moz-animation-duration: random(100)/1000.6 + s;
-  -o-animation-duration: random(100)/1000.6 + s;
-  -ms-animation-duration: random(100)/1000.6 + s;
-  animation-duration: random(100)/1000.6 + s;
+  -webkit-animation-delay: 0.13s;
+  -moz-animation-delay: 0.13s;
+  -o-animation-delay: 0.13s;
+  -ms-animation-delay: 0.13s;
+  animation-delay: 0.13s;
+  -webkit-animation-duration: 1.18s;
+  -moz-animation-duration: 1.18s;
+  -o-animation-duration: 1.18s;
+  -ms-animation-duration: 1.18s;
+  animation-duration: 1.18s;
 }
-/* line 33, src/animations/ball-grid-pulse.scss */
+/* line 32, src/animations/ball-grid-pulse.scss */
 .ball-grid-pulse > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -3398,7 +2928,6 @@
 }
 
 @-webkit-keyframes ball-spin-fade-loader {
-  /* line 7, src/animations/ball-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
@@ -3408,8 +2937,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 11, src/animations/ball-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -3420,9 +2947,7 @@
     transform: scale(1);
   }
 }
-
 @-moz-keyframes ball-spin-fade-loader {
-  /* line 7, src/animations/ball-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
@@ -3432,8 +2957,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 11, src/animations/ball-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -3444,9 +2967,7 @@
     transform: scale(1);
   }
 }
-
 @-ms-keyframes ball-spin-fade-loader {
-  /* line 7, src/animations/ball-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
@@ -3456,8 +2977,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 11, src/animations/ball-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -3468,9 +2987,7 @@
     transform: scale(1);
   }
 }
-
 @-o-keyframes ball-spin-fade-loader {
-  /* line 7, src/animations/ball-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
@@ -3480,8 +2997,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 11, src/animations/ball-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -3492,9 +3007,7 @@
     transform: scale(1);
   }
 }
-
 @keyframes ball-spin-fade-loader {
-  /* line 7, src/animations/ball-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
@@ -3504,8 +3017,6 @@
     -ms-transform: scale(0.4);
     transform: scale(0.4);
   }
-
-  /* line 11, src/animations/ball-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -3516,7 +3027,6 @@
     transform: scale(1);
   }
 }
-
 /* line 54, src/animations/ball-spin-fade-loader.scss */
 .ball-spin-fade-loader {
   position: relative;
@@ -3603,7 +3113,7 @@
 }
 /* line 59, src/animations/ball-spin-fade-loader.scss */
 .ball-spin-fade-loader > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -3613,19 +3123,15 @@
 }
 
 @keyframes ball-spin-loader {
-  /* line 7, src/animations/ball-spin-loader.scss */
   75% {
     opacity: 0.2;
     filter: alpha(opacity=20);
   }
-
-  /* line 10, src/animations/ball-spin-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 /* line 52, src/animations/ball-spin-loader.scss */
 .ball-spin-loader {
   position: relative;
@@ -3721,7 +3227,6 @@
 }
 
 @-webkit-keyframes ball-zig {
-  /* line 7, src/animations/ball-zig-zag.scss */
   33% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -3729,8 +3234,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag.scss */
   66% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -3738,8 +3241,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -3748,9 +3249,7 @@
     transform: translate(0, 0);
   }
 }
-
 @-moz-keyframes ball-zig {
-  /* line 7, src/animations/ball-zig-zag.scss */
   33% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -3758,8 +3257,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag.scss */
   66% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -3767,8 +3264,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -3777,9 +3272,7 @@
     transform: translate(0, 0);
   }
 }
-
 @-ms-keyframes ball-zig {
-  /* line 7, src/animations/ball-zig-zag.scss */
   33% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -3787,8 +3280,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag.scss */
   66% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -3796,8 +3287,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -3806,9 +3295,7 @@
     transform: translate(0, 0);
   }
 }
-
 @-o-keyframes ball-zig {
-  /* line 7, src/animations/ball-zig-zag.scss */
   33% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -3816,8 +3303,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag.scss */
   66% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -3825,8 +3310,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -3835,9 +3318,7 @@
     transform: translate(0, 0);
   }
 }
-
 @keyframes ball-zig {
-  /* line 7, src/animations/ball-zig-zag.scss */
   33% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -3845,8 +3326,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag.scss */
   66% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -3854,8 +3333,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -3864,9 +3341,7 @@
     transform: translate(0, 0);
   }
 }
-
 @keyframes ball-zag {
-  /* line 19, src/animations/ball-zig-zag.scss */
   33% {
     -webkit-transform: translate(15px, 30px);
     -moz-transform: translate(15px, 30px);
@@ -3874,8 +3349,6 @@
     -ms-transform: translate(15px, 30px);
     transform: translate(15px, 30px);
   }
-
-  /* line 22, src/animations/ball-zig-zag.scss */
   66% {
     -webkit-transform: translate(-15px, 30px);
     -moz-transform: translate(-15px, 30px);
@@ -3883,8 +3356,6 @@
     -ms-transform: translate(-15px, 30px);
     transform: translate(-15px, 30px);
   }
-
-  /* line 25, src/animations/ball-zig-zag.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -3893,7 +3364,6 @@
     transform: translate(0, 0);
   }
 }
-
 /* line 30, src/animations/ball-zig-zag.scss */
 .ball-zig-zag {
   position: relative;
@@ -3905,7 +3375,7 @@
 }
 /* line 34, src/animations/ball-zig-zag.scss */
 .ball-zig-zag > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -3934,7 +3404,6 @@
 }
 
 @-webkit-keyframes ball-zig-deflect {
-  /* line 7, src/animations/ball-zig-zag-deflect.scss */
   17% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -3942,8 +3411,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag-deflect.scss */
   34% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -3951,8 +3418,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag-deflect.scss */
   50% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -3960,8 +3425,6 @@
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-
-  /* line 16, src/animations/ball-zig-zag-deflect.scss */
   67% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -3969,8 +3432,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 19, src/animations/ball-zig-zag-deflect.scss */
   84% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -3978,8 +3439,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 22, src/animations/ball-zig-zag-deflect.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -3988,9 +3447,7 @@
     transform: translate(0, 0);
   }
 }
-
 @-moz-keyframes ball-zig-deflect {
-  /* line 7, src/animations/ball-zig-zag-deflect.scss */
   17% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -3998,8 +3455,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag-deflect.scss */
   34% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -4007,8 +3462,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag-deflect.scss */
   50% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4016,8 +3469,6 @@
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-
-  /* line 16, src/animations/ball-zig-zag-deflect.scss */
   67% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -4025,8 +3476,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 19, src/animations/ball-zig-zag-deflect.scss */
   84% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -4034,8 +3483,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 22, src/animations/ball-zig-zag-deflect.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4044,9 +3491,7 @@
     transform: translate(0, 0);
   }
 }
-
 @-ms-keyframes ball-zig-deflect {
-  /* line 7, src/animations/ball-zig-zag-deflect.scss */
   17% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -4054,8 +3499,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag-deflect.scss */
   34% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -4063,8 +3506,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag-deflect.scss */
   50% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4072,8 +3513,6 @@
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-
-  /* line 16, src/animations/ball-zig-zag-deflect.scss */
   67% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -4081,8 +3520,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 19, src/animations/ball-zig-zag-deflect.scss */
   84% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -4090,8 +3527,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 22, src/animations/ball-zig-zag-deflect.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4100,9 +3535,7 @@
     transform: translate(0, 0);
   }
 }
-
 @-o-keyframes ball-zig-deflect {
-  /* line 7, src/animations/ball-zig-zag-deflect.scss */
   17% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -4110,8 +3543,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag-deflect.scss */
   34% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -4119,8 +3550,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag-deflect.scss */
   50% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4128,8 +3557,6 @@
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-
-  /* line 16, src/animations/ball-zig-zag-deflect.scss */
   67% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -4137,8 +3564,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 19, src/animations/ball-zig-zag-deflect.scss */
   84% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -4146,8 +3571,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 22, src/animations/ball-zig-zag-deflect.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4156,9 +3579,7 @@
     transform: translate(0, 0);
   }
 }
-
 @keyframes ball-zig-deflect {
-  /* line 7, src/animations/ball-zig-zag-deflect.scss */
   17% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -4166,8 +3587,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 10, src/animations/ball-zig-zag-deflect.scss */
   34% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -4175,8 +3594,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 13, src/animations/ball-zig-zag-deflect.scss */
   50% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4184,8 +3601,6 @@
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-
-  /* line 16, src/animations/ball-zig-zag-deflect.scss */
   67% {
     -webkit-transform: translate(15px, -30px);
     -moz-transform: translate(15px, -30px);
@@ -4193,8 +3608,6 @@
     -ms-transform: translate(15px, -30px);
     transform: translate(15px, -30px);
   }
-
-  /* line 19, src/animations/ball-zig-zag-deflect.scss */
   84% {
     -webkit-transform: translate(-15px, -30px);
     -moz-transform: translate(-15px, -30px);
@@ -4202,8 +3615,6 @@
     -ms-transform: translate(-15px, -30px);
     transform: translate(-15px, -30px);
   }
-
-  /* line 22, src/animations/ball-zig-zag-deflect.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4212,9 +3623,7 @@
     transform: translate(0, 0);
   }
 }
-
 @keyframes ball-zag-deflect {
-  /* line 28, src/animations/ball-zig-zag-deflect.scss */
   17% {
     -webkit-transform: translate(15px, 30px);
     -moz-transform: translate(15px, 30px);
@@ -4222,8 +3631,6 @@
     -ms-transform: translate(15px, 30px);
     transform: translate(15px, 30px);
   }
-
-  /* line 31, src/animations/ball-zig-zag-deflect.scss */
   34% {
     -webkit-transform: translate(-15px, 30px);
     -moz-transform: translate(-15px, 30px);
@@ -4231,8 +3638,6 @@
     -ms-transform: translate(-15px, 30px);
     transform: translate(-15px, 30px);
   }
-
-  /* line 34, src/animations/ball-zig-zag-deflect.scss */
   50% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4240,8 +3645,6 @@
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-
-  /* line 37, src/animations/ball-zig-zag-deflect.scss */
   67% {
     -webkit-transform: translate(-15px, 30px);
     -moz-transform: translate(-15px, 30px);
@@ -4249,8 +3652,6 @@
     -ms-transform: translate(-15px, 30px);
     transform: translate(-15px, 30px);
   }
-
-  /* line 40, src/animations/ball-zig-zag-deflect.scss */
   84% {
     -webkit-transform: translate(15px, 30px);
     -moz-transform: translate(15px, 30px);
@@ -4258,8 +3659,6 @@
     -ms-transform: translate(15px, 30px);
     transform: translate(15px, 30px);
   }
-
-  /* line 43, src/animations/ball-zig-zag-deflect.scss */
   100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -4268,7 +3667,6 @@
     transform: translate(0, 0);
   }
 }
-
 /* line 48, src/animations/ball-zig-zag-deflect.scss */
 .ball-zig-zag-deflect {
   position: relative;
@@ -4280,7 +3678,7 @@
 }
 /* line 52, src/animations/ball-zig-zag-deflect.scss */
 .ball-zig-zag-deflect > div {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -4312,7 +3710,6 @@
  * Lines
  */
 @keyframes line-scale {
-  /* line 5, src/animations/line-scale.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4320,8 +3717,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale.scss */
   50% {
     -webkit-transform: scaley(0.4);
     -moz-transform: scaley(0.4);
@@ -4329,8 +3724,6 @@
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
-
-  /* line 11, src/animations/line-scale.scss */
   100% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4339,7 +3732,6 @@
     transform: scaley(1);
   }
 }
-
 /* line 18, src/animations/line-scale.scss */
 .line-scale > div:nth-child(1) {
   -webkit-animation: line-scale 1s 0.1s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
@@ -4382,7 +3774,7 @@
 }
 /* line 27, src/animations/line-scale.scss */
 .line-scale > div {
-  background-color: white;
+  background-color: #fff;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -4392,7 +3784,6 @@
 }
 
 @-webkit-keyframes line-scale-party {
-  /* line 5, src/animations/line-scale-random.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4400,8 +3791,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/line-scale-random.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -4409,8 +3798,6 @@
     -ms-transform: scale(0.5);
     transform: scale(0.5);
   }
-
-  /* line 12, src/animations/line-scale-random.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4419,9 +3806,7 @@
     transform: scale(1);
   }
 }
-
 @-moz-keyframes line-scale-party {
-  /* line 5, src/animations/line-scale-random.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4429,8 +3814,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/line-scale-random.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -4438,8 +3821,6 @@
     -ms-transform: scale(0.5);
     transform: scale(0.5);
   }
-
-  /* line 12, src/animations/line-scale-random.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4448,9 +3829,7 @@
     transform: scale(1);
   }
 }
-
 @-ms-keyframes line-scale-party {
-  /* line 5, src/animations/line-scale-random.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4458,8 +3837,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/line-scale-random.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -4467,8 +3844,6 @@
     -ms-transform: scale(0.5);
     transform: scale(0.5);
   }
-
-  /* line 12, src/animations/line-scale-random.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4477,9 +3852,7 @@
     transform: scale(1);
   }
 }
-
 @-o-keyframes line-scale-party {
-  /* line 5, src/animations/line-scale-random.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4487,8 +3860,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/line-scale-random.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -4496,8 +3867,6 @@
     -ms-transform: scale(0.5);
     transform: scale(0.5);
   }
-
-  /* line 12, src/animations/line-scale-random.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4506,9 +3875,7 @@
     transform: scale(1);
   }
 }
-
 @keyframes line-scale-party {
-  /* line 5, src/animations/line-scale-random.scss */
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4516,8 +3883,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-  /* line 8, src/animations/line-scale-random.scss */
   50% {
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
@@ -4525,8 +3890,6 @@
     -ms-transform: scale(0.5);
     transform: scale(0.5);
   }
-
-  /* line 12, src/animations/line-scale-random.scss */
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -4535,62 +3898,61 @@
     transform: scale(1);
   }
 }
-
 /* line 19, src/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(1) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.3s;
-  -moz-animation-duration: random(100)/1000.3s;
-  -o-animation-duration: random(100)/1000.3s;
-  -ms-animation-duration: random(100)/1000.3s;
-  animation-duration: random(100)/1000.3s;
+  -webkit-animation-delay: 0.68s;
+  -moz-animation-delay: 0.68s;
+  -o-animation-delay: 0.68s;
+  -ms-animation-delay: 0.68s;
+  animation-delay: 0.68s;
+  -webkit-animation-duration: 0.76s;
+  -moz-animation-duration: 0.76s;
+  -o-animation-duration: 0.76s;
+  -ms-animation-duration: 0.76s;
+  animation-duration: 0.76s;
 }
 /* line 19, src/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(2) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.3s;
-  -moz-animation-duration: random(100)/1000.3s;
-  -o-animation-duration: random(100)/1000.3s;
-  -ms-animation-duration: random(100)/1000.3s;
-  animation-duration: random(100)/1000.3s;
+  -webkit-animation-delay: 0.69s;
+  -moz-animation-delay: 0.69s;
+  -o-animation-delay: 0.69s;
+  -ms-animation-delay: 0.69s;
+  animation-delay: 0.69s;
+  -webkit-animation-duration: 0.39s;
+  -moz-animation-duration: 0.39s;
+  -o-animation-duration: 0.39s;
+  -ms-animation-duration: 0.39s;
+  animation-duration: 0.39s;
 }
 /* line 19, src/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(3) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.3s;
-  -moz-animation-duration: random(100)/1000.3s;
-  -o-animation-duration: random(100)/1000.3s;
-  -ms-animation-duration: random(100)/1000.3s;
-  animation-duration: random(100)/1000.3s;
+  -webkit-animation-delay: 0.69s;
+  -moz-animation-delay: 0.69s;
+  -o-animation-delay: 0.69s;
+  -ms-animation-delay: 0.69s;
+  animation-delay: 0.69s;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 /* line 19, src/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(4) {
-  -webkit-animation-delay: random(100)/100-0.2s;
-  -moz-animation-delay: random(100)/100-0.2s;
-  -o-animation-delay: random(100)/100-0.2s;
-  -ms-animation-delay: random(100)/100-0.2s;
-  animation-delay: random(100)/100-0.2s;
-  -webkit-animation-duration: random(100)/1000.3s;
-  -moz-animation-duration: random(100)/1000.3s;
-  -o-animation-duration: random(100)/1000.3s;
-  -ms-animation-duration: random(100)/1000.3s;
-  animation-duration: random(100)/1000.3s;
+  -webkit-animation-delay: 0.42s;
+  -moz-animation-delay: 0.42s;
+  -o-animation-delay: 0.42s;
+  -ms-animation-delay: 0.42s;
+  animation-delay: 0.42s;
+  -webkit-animation-duration: 0.36s;
+  -moz-animation-duration: 0.36s;
+  -o-animation-duration: 0.36s;
+  -ms-animation-duration: 0.36s;
+  animation-duration: 0.36s;
 }
 /* line 29, src/animations/line-scale-random.scss */
 .line-scale-party > div {
-  background-color: white;
+  background-color: #fff;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -4615,7 +3977,6 @@
 }
 
 @-webkit-keyframes line-scale-pulse-out {
-  /* line 5, src/animations/line-scale-pulse-out.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4623,8 +3984,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out.scss */
   50% {
     -webkit-transform: scaley(0.4);
     -moz-transform: scaley(0.4);
@@ -4632,8 +3991,6 @@
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out.scss */
   100% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4642,9 +3999,7 @@
     transform: scaley(1);
   }
 }
-
 @-moz-keyframes line-scale-pulse-out {
-  /* line 5, src/animations/line-scale-pulse-out.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4652,8 +4007,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out.scss */
   50% {
     -webkit-transform: scaley(0.4);
     -moz-transform: scaley(0.4);
@@ -4661,8 +4014,6 @@
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out.scss */
   100% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4671,9 +4022,7 @@
     transform: scaley(1);
   }
 }
-
 @-ms-keyframes line-scale-pulse-out {
-  /* line 5, src/animations/line-scale-pulse-out.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4681,8 +4030,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out.scss */
   50% {
     -webkit-transform: scaley(0.4);
     -moz-transform: scaley(0.4);
@@ -4690,8 +4037,6 @@
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out.scss */
   100% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4700,9 +4045,7 @@
     transform: scaley(1);
   }
 }
-
 @-o-keyframes line-scale-pulse-out {
-  /* line 5, src/animations/line-scale-pulse-out.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4710,8 +4053,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out.scss */
   50% {
     -webkit-transform: scaley(0.4);
     -moz-transform: scaley(0.4);
@@ -4719,8 +4060,6 @@
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out.scss */
   100% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4729,9 +4068,7 @@
     transform: scaley(1);
   }
 }
-
 @keyframes line-scale-pulse-out {
-  /* line 5, src/animations/line-scale-pulse-out.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4739,8 +4076,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out.scss */
   50% {
     -webkit-transform: scaley(0.4);
     -moz-transform: scaley(0.4);
@@ -4748,8 +4083,6 @@
     -ms-transform: scaley(0.4);
     transform: scaley(0.4);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out.scss */
   100% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4758,10 +4091,9 @@
     transform: scaley(1);
   }
 }
-
 /* line 18, src/animations/line-scale-pulse-out.scss */
 .line-scale-pulse-out > div {
-  background-color: white;
+  background-color: #fff;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -4792,7 +4124,6 @@
 }
 
 @-webkit-keyframes line-scale-pulse-out-rapid {
-  /* line 5, src/animations/line-scale-pulse-out-rapid.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4800,8 +4131,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out-rapid.scss */
   80% {
     -webkit-transform: scaley(0.3);
     -moz-transform: scaley(0.3);
@@ -4809,8 +4138,6 @@
     -ms-transform: scaley(0.3);
     transform: scaley(0.3);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out-rapid.scss */
   90% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4819,9 +4146,7 @@
     transform: scaley(1);
   }
 }
-
 @-moz-keyframes line-scale-pulse-out-rapid {
-  /* line 5, src/animations/line-scale-pulse-out-rapid.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4829,8 +4154,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out-rapid.scss */
   80% {
     -webkit-transform: scaley(0.3);
     -moz-transform: scaley(0.3);
@@ -4838,8 +4161,6 @@
     -ms-transform: scaley(0.3);
     transform: scaley(0.3);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out-rapid.scss */
   90% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4848,9 +4169,7 @@
     transform: scaley(1);
   }
 }
-
 @-ms-keyframes line-scale-pulse-out-rapid {
-  /* line 5, src/animations/line-scale-pulse-out-rapid.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4858,8 +4177,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out-rapid.scss */
   80% {
     -webkit-transform: scaley(0.3);
     -moz-transform: scaley(0.3);
@@ -4867,8 +4184,6 @@
     -ms-transform: scaley(0.3);
     transform: scaley(0.3);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out-rapid.scss */
   90% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4877,9 +4192,7 @@
     transform: scaley(1);
   }
 }
-
 @-o-keyframes line-scale-pulse-out-rapid {
-  /* line 5, src/animations/line-scale-pulse-out-rapid.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4887,8 +4200,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out-rapid.scss */
   80% {
     -webkit-transform: scaley(0.3);
     -moz-transform: scaley(0.3);
@@ -4896,8 +4207,6 @@
     -ms-transform: scaley(0.3);
     transform: scaley(0.3);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out-rapid.scss */
   90% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4906,9 +4215,7 @@
     transform: scaley(1);
   }
 }
-
 @keyframes line-scale-pulse-out-rapid {
-  /* line 5, src/animations/line-scale-pulse-out-rapid.scss */
   0% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4916,8 +4223,6 @@
     -ms-transform: scaley(1);
     transform: scaley(1);
   }
-
-  /* line 8, src/animations/line-scale-pulse-out-rapid.scss */
   80% {
     -webkit-transform: scaley(0.3);
     -moz-transform: scaley(0.3);
@@ -4925,8 +4230,6 @@
     -ms-transform: scaley(0.3);
     transform: scaley(0.3);
   }
-
-  /* line 11, src/animations/line-scale-pulse-out-rapid.scss */
   90% {
     -webkit-transform: scaley(1);
     -moz-transform: scaley(1);
@@ -4935,10 +4238,9 @@
     transform: scaley(1);
   }
 }
-
 /* line 18, src/animations/line-scale-pulse-out-rapid.scss */
 .line-scale-pulse-out-rapid > div {
-  background-color: white;
+  background-color: #fff;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -4969,75 +4271,55 @@
 }
 
 @-webkit-keyframes line-spin-fade-loader {
-  /* line 7, src/animations/line-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
   }
-
-  /* line 10, src/animations/line-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 @-moz-keyframes line-spin-fade-loader {
-  /* line 7, src/animations/line-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
   }
-
-  /* line 10, src/animations/line-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 @-ms-keyframes line-spin-fade-loader {
-  /* line 7, src/animations/line-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
   }
-
-  /* line 10, src/animations/line-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 @-o-keyframes line-spin-fade-loader {
-  /* line 7, src/animations/line-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
   }
-
-  /* line 10, src/animations/line-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 @keyframes line-spin-fade-loader {
-  /* line 7, src/animations/line-spin-fade-loader.scss */
   50% {
     opacity: 0.3;
     filter: alpha(opacity=30);
   }
-
-  /* line 10, src/animations/line-spin-fade-loader.scss */
   100% {
     opacity: 1;
     filter: alpha(opacity=100);
   }
 }
-
 /* line 58, src/animations/line-spin-fade-loader.scss */
 .line-spin-fade-loader {
   position: relative;
@@ -5154,7 +4436,7 @@
 }
 /* line 62, src/animations/line-spin-fade-loader.scss */
 .line-spin-fade-loader > div {
-  background-color: white;
+  background-color: #fff;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -5169,7 +4451,6 @@
  * Misc
  */
 @-webkit-keyframes triangle-skew-spin {
-  /* line 7, src/animations/triangle-skew-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5177,8 +4458,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 10, src/animations/triangle-skew-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5186,8 +4465,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 13, src/animations/triangle-skew-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5195,8 +4472,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 16, src/animations/triangle-skew-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5205,9 +4480,7 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 @-moz-keyframes triangle-skew-spin {
-  /* line 7, src/animations/triangle-skew-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5215,8 +4488,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 10, src/animations/triangle-skew-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5224,8 +4495,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 13, src/animations/triangle-skew-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5233,8 +4502,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 16, src/animations/triangle-skew-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5243,9 +4510,7 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 @-ms-keyframes triangle-skew-spin {
-  /* line 7, src/animations/triangle-skew-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5253,8 +4518,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 10, src/animations/triangle-skew-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5262,8 +4525,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 13, src/animations/triangle-skew-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5271,8 +4532,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 16, src/animations/triangle-skew-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5281,9 +4540,7 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 @-o-keyframes triangle-skew-spin {
-  /* line 7, src/animations/triangle-skew-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5291,8 +4548,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 10, src/animations/triangle-skew-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5300,8 +4555,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 13, src/animations/triangle-skew-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5309,8 +4562,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 16, src/animations/triangle-skew-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5319,9 +4570,7 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 @keyframes triangle-skew-spin {
-  /* line 7, src/animations/triangle-skew-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5329,8 +4578,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 10, src/animations/triangle-skew-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5338,8 +4585,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 13, src/animations/triangle-skew-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5347,8 +4592,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 16, src/animations/triangle-skew-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5357,7 +4600,6 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 /* line 23, src/animations/triangle-skew-spin.scss */
 .triangle-skew-spin > div {
   animation-fill-mode: both;
@@ -5365,7 +4607,7 @@
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 20px solid white;
+  border-bottom: 20px solid #fff;
   -webkit-animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
   -moz-animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
   -o-animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
@@ -5374,7 +4616,6 @@
 }
 
 @-webkit-keyframes square-spin {
-  /* line 5, src/animations/square-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5382,8 +4623,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 8, src/animations/square-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5391,8 +4630,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 11, src/animations/square-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5400,8 +4637,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 14, src/animations/square-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5410,9 +4645,7 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 @-moz-keyframes square-spin {
-  /* line 5, src/animations/square-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5420,8 +4653,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 8, src/animations/square-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5429,8 +4660,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 11, src/animations/square-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5438,8 +4667,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 14, src/animations/square-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5448,9 +4675,7 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 @-ms-keyframes square-spin {
-  /* line 5, src/animations/square-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5458,8 +4683,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 8, src/animations/square-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5467,8 +4690,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 11, src/animations/square-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5476,8 +4697,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 14, src/animations/square-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5486,9 +4705,7 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 @-o-keyframes square-spin {
-  /* line 5, src/animations/square-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5496,8 +4713,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 8, src/animations/square-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5505,8 +4720,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 11, src/animations/square-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5514,8 +4727,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 14, src/animations/square-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5524,9 +4735,7 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 @keyframes square-spin {
-  /* line 5, src/animations/square-spin.scss */
   25% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(0);
@@ -5534,8 +4743,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(0);
     transform: perspective(100px) rotateX(180deg) rotateY(0);
   }
-
-  /* line 8, src/animations/square-spin.scss */
   50% {
     -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
@@ -5543,8 +4750,6 @@
     -ms-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
     transform: perspective(100px) rotateX(180deg) rotateY(180deg);
   }
-
-  /* line 11, src/animations/square-spin.scss */
   75% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
     -moz-transform: perspective(100px) rotateX(0) rotateY(180deg);
@@ -5552,8 +4757,6 @@
     -ms-transform: perspective(100px) rotateX(0) rotateY(180deg);
     transform: perspective(100px) rotateX(0) rotateY(180deg);
   }
-
-  /* line 14, src/animations/square-spin.scss */
   100% {
     -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
     -moz-transform: perspective(100px) rotateX(0) rotateY(0);
@@ -5562,13 +4765,12 @@
     transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
-
 /* line 21, src/animations/square-spin.scss */
 .square-spin > div {
   animation-fill-mode: both;
   width: 50px;
   height: 50px;
-  background: white;
+  background: #fff;
   border: 1px solid red;
   -webkit-animation: square-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
   -moz-animation: square-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
@@ -5578,13 +4780,10 @@
 }
 
 @-webkit-keyframes pacman-balls {
-  /* line 7, src/animations/pacman.scss */
   75% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 10, src/animations/pacman.scss */
   100% {
     -webkit-transform: translate(-100px, -6.25px);
     -moz-transform: translate(-100px, -6.25px);
@@ -5593,15 +4792,11 @@
     transform: translate(-100px, -6.25px);
   }
 }
-
 @-moz-keyframes pacman-balls {
-  /* line 7, src/animations/pacman.scss */
   75% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 10, src/animations/pacman.scss */
   100% {
     -webkit-transform: translate(-100px, -6.25px);
     -moz-transform: translate(-100px, -6.25px);
@@ -5610,15 +4805,11 @@
     transform: translate(-100px, -6.25px);
   }
 }
-
 @-ms-keyframes pacman-balls {
-  /* line 7, src/animations/pacman.scss */
   75% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 10, src/animations/pacman.scss */
   100% {
     -webkit-transform: translate(-100px, -6.25px);
     -moz-transform: translate(-100px, -6.25px);
@@ -5627,15 +4818,11 @@
     transform: translate(-100px, -6.25px);
   }
 }
-
 @-o-keyframes pacman-balls {
-  /* line 7, src/animations/pacman.scss */
   75% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 10, src/animations/pacman.scss */
   100% {
     -webkit-transform: translate(-100px, -6.25px);
     -moz-transform: translate(-100px, -6.25px);
@@ -5644,15 +4831,11 @@
     transform: translate(-100px, -6.25px);
   }
 }
-
 @keyframes pacman-balls {
-  /* line 7, src/animations/pacman.scss */
   75% {
     opacity: 0.7;
     filter: alpha(opacity=70);
   }
-
-  /* line 10, src/animations/pacman.scss */
   100% {
     -webkit-transform: translate(-100px, -6.25px);
     -moz-transform: translate(-100px, -6.25px);
@@ -5661,7 +4844,6 @@
     transform: translate(-100px, -6.25px);
   }
 }
-
 /* line 23, src/animations/pacman.scss */
 .pacman {
   position: relative;
@@ -5703,17 +4885,17 @@
   width: 0px;
   height: 0px;
   border-right: 25px solid transparent;
-  border-top: 25px solid white;
-  border-left: 25px solid white;
-  border-bottom: 25px solid white;
+  border-top: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-bottom: 25px solid #fff;
   border-radius: 25px;
 }
-/* line 41, src/animations/pacman.scss */
+/* line 38, src/animations/pacman.scss */
 .pacman > div:nth-child(2),
 .pacman > div:nth-child(3),
 .pacman > div:nth-child(4),
 .pacman > div:nth-child(5) {
-  background-color: white;
+  background-color: #fff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -5731,7 +4913,6 @@
 }
 
 @-webkit-keyframes cube-transition {
-  /* line 8, src/animations/cube-transition.scss */
   25% {
     -webkit-transform: translateX(50px) scale(0.5) rotate(-90deg);
     -moz-transform: translateX(50px) scale(0.5) rotate(-90deg);
@@ -5739,8 +4920,6 @@
     -ms-transform: translateX(50px) scale(0.5) rotate(-90deg);
     transform: translateX(50px) scale(0.5) rotate(-90deg);
   }
-
-  /* line 11, src/animations/cube-transition.scss */
   50% {
     -webkit-transform: translate(50px, 50px) rotate(-180deg);
     -moz-transform: translate(50px, 50px) rotate(-180deg);
@@ -5748,8 +4927,6 @@
     -ms-transform: translate(50px, 50px) rotate(-180deg);
     transform: translate(50px, 50px) rotate(-180deg);
   }
-
-  /* line 14, src/animations/cube-transition.scss */
   75% {
     -webkit-transform: translateY(50px) scale(0.5) rotate(-270deg);
     -moz-transform: translateY(50px) scale(0.5) rotate(-270deg);
@@ -5757,8 +4934,6 @@
     -ms-transform: translateY(50px) scale(0.5) rotate(-270deg);
     transform: translateY(50px) scale(0.5) rotate(-270deg);
   }
-
-  /* line 17, src/animations/cube-transition.scss */
   100% {
     -webkit-transform: rotate(-360deg);
     -moz-transform: rotate(-360deg);
@@ -5767,9 +4942,7 @@
     transform: rotate(-360deg);
   }
 }
-
 @-moz-keyframes cube-transition {
-  /* line 8, src/animations/cube-transition.scss */
   25% {
     -webkit-transform: translateX(50px) scale(0.5) rotate(-90deg);
     -moz-transform: translateX(50px) scale(0.5) rotate(-90deg);
@@ -5777,8 +4950,6 @@
     -ms-transform: translateX(50px) scale(0.5) rotate(-90deg);
     transform: translateX(50px) scale(0.5) rotate(-90deg);
   }
-
-  /* line 11, src/animations/cube-transition.scss */
   50% {
     -webkit-transform: translate(50px, 50px) rotate(-180deg);
     -moz-transform: translate(50px, 50px) rotate(-180deg);
@@ -5786,8 +4957,6 @@
     -ms-transform: translate(50px, 50px) rotate(-180deg);
     transform: translate(50px, 50px) rotate(-180deg);
   }
-
-  /* line 14, src/animations/cube-transition.scss */
   75% {
     -webkit-transform: translateY(50px) scale(0.5) rotate(-270deg);
     -moz-transform: translateY(50px) scale(0.5) rotate(-270deg);
@@ -5795,8 +4964,6 @@
     -ms-transform: translateY(50px) scale(0.5) rotate(-270deg);
     transform: translateY(50px) scale(0.5) rotate(-270deg);
   }
-
-  /* line 17, src/animations/cube-transition.scss */
   100% {
     -webkit-transform: rotate(-360deg);
     -moz-transform: rotate(-360deg);
@@ -5805,9 +4972,7 @@
     transform: rotate(-360deg);
   }
 }
-
 @-ms-keyframes cube-transition {
-  /* line 8, src/animations/cube-transition.scss */
   25% {
     -webkit-transform: translateX(50px) scale(0.5) rotate(-90deg);
     -moz-transform: translateX(50px) scale(0.5) rotate(-90deg);
@@ -5815,8 +4980,6 @@
     -ms-transform: translateX(50px) scale(0.5) rotate(-90deg);
     transform: translateX(50px) scale(0.5) rotate(-90deg);
   }
-
-  /* line 11, src/animations/cube-transition.scss */
   50% {
     -webkit-transform: translate(50px, 50px) rotate(-180deg);
     -moz-transform: translate(50px, 50px) rotate(-180deg);
@@ -5824,8 +4987,6 @@
     -ms-transform: translate(50px, 50px) rotate(-180deg);
     transform: translate(50px, 50px) rotate(-180deg);
   }
-
-  /* line 14, src/animations/cube-transition.scss */
   75% {
     -webkit-transform: translateY(50px) scale(0.5) rotate(-270deg);
     -moz-transform: translateY(50px) scale(0.5) rotate(-270deg);
@@ -5833,8 +4994,6 @@
     -ms-transform: translateY(50px) scale(0.5) rotate(-270deg);
     transform: translateY(50px) scale(0.5) rotate(-270deg);
   }
-
-  /* line 17, src/animations/cube-transition.scss */
   100% {
     -webkit-transform: rotate(-360deg);
     -moz-transform: rotate(-360deg);
@@ -5843,9 +5002,7 @@
     transform: rotate(-360deg);
   }
 }
-
 @-o-keyframes cube-transition {
-  /* line 8, src/animations/cube-transition.scss */
   25% {
     -webkit-transform: translateX(50px) scale(0.5) rotate(-90deg);
     -moz-transform: translateX(50px) scale(0.5) rotate(-90deg);
@@ -5853,8 +5010,6 @@
     -ms-transform: translateX(50px) scale(0.5) rotate(-90deg);
     transform: translateX(50px) scale(0.5) rotate(-90deg);
   }
-
-  /* line 11, src/animations/cube-transition.scss */
   50% {
     -webkit-transform: translate(50px, 50px) rotate(-180deg);
     -moz-transform: translate(50px, 50px) rotate(-180deg);
@@ -5862,8 +5017,6 @@
     -ms-transform: translate(50px, 50px) rotate(-180deg);
     transform: translate(50px, 50px) rotate(-180deg);
   }
-
-  /* line 14, src/animations/cube-transition.scss */
   75% {
     -webkit-transform: translateY(50px) scale(0.5) rotate(-270deg);
     -moz-transform: translateY(50px) scale(0.5) rotate(-270deg);
@@ -5871,8 +5024,6 @@
     -ms-transform: translateY(50px) scale(0.5) rotate(-270deg);
     transform: translateY(50px) scale(0.5) rotate(-270deg);
   }
-
-  /* line 17, src/animations/cube-transition.scss */
   100% {
     -webkit-transform: rotate(-360deg);
     -moz-transform: rotate(-360deg);
@@ -5881,9 +5032,7 @@
     transform: rotate(-360deg);
   }
 }
-
 @keyframes cube-transition {
-  /* line 8, src/animations/cube-transition.scss */
   25% {
     -webkit-transform: translateX(50px) scale(0.5) rotate(-90deg);
     -moz-transform: translateX(50px) scale(0.5) rotate(-90deg);
@@ -5891,8 +5040,6 @@
     -ms-transform: translateX(50px) scale(0.5) rotate(-90deg);
     transform: translateX(50px) scale(0.5) rotate(-90deg);
   }
-
-  /* line 11, src/animations/cube-transition.scss */
   50% {
     -webkit-transform: translate(50px, 50px) rotate(-180deg);
     -moz-transform: translate(50px, 50px) rotate(-180deg);
@@ -5900,8 +5047,6 @@
     -ms-transform: translate(50px, 50px) rotate(-180deg);
     transform: translate(50px, 50px) rotate(-180deg);
   }
-
-  /* line 14, src/animations/cube-transition.scss */
   75% {
     -webkit-transform: translateY(50px) scale(0.5) rotate(-270deg);
     -moz-transform: translateY(50px) scale(0.5) rotate(-270deg);
@@ -5909,8 +5054,6 @@
     -ms-transform: translateY(50px) scale(0.5) rotate(-270deg);
     transform: translateY(50px) scale(0.5) rotate(-270deg);
   }
-
-  /* line 17, src/animations/cube-transition.scss */
   100% {
     -webkit-transform: rotate(-360deg);
     -moz-transform: rotate(-360deg);
@@ -5919,7 +5062,6 @@
     transform: rotate(-360deg);
   }
 }
-
 /* line 22, src/animations/cube-transition.scss */
 .cube-transition {
   position: relative;
@@ -5937,7 +5079,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: #fff;
   -webkit-animation: cube-transition 1.6s 0s infinite ease-in-out;
   -moz-animation: cube-transition 1.6s 0s infinite ease-in-out;
   -o-animation: cube-transition 1.6s 0s infinite ease-in-out;
@@ -5954,7 +5096,6 @@
 }
 
 @-webkit-keyframes spin-rotate {
-  /* line 8, src/animations/semi-circle-spin.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -5962,8 +5103,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 11, src/animations/semi-circle-spin.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -5971,8 +5110,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 14, src/animations/semi-circle-spin.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -5981,9 +5118,7 @@
     transform: rotate(360deg);
   }
 }
-
 @-moz-keyframes spin-rotate {
-  /* line 8, src/animations/semi-circle-spin.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -5991,8 +5126,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 11, src/animations/semi-circle-spin.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -6000,8 +5133,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 14, src/animations/semi-circle-spin.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -6010,9 +5141,7 @@
     transform: rotate(360deg);
   }
 }
-
 @-ms-keyframes spin-rotate {
-  /* line 8, src/animations/semi-circle-spin.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -6020,8 +5149,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 11, src/animations/semi-circle-spin.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -6029,8 +5156,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 14, src/animations/semi-circle-spin.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -6039,9 +5164,7 @@
     transform: rotate(360deg);
   }
 }
-
 @-o-keyframes spin-rotate {
-  /* line 8, src/animations/semi-circle-spin.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -6049,8 +5172,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 11, src/animations/semi-circle-spin.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -6058,8 +5179,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 14, src/animations/semi-circle-spin.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -6068,9 +5187,7 @@
     transform: rotate(360deg);
   }
 }
-
 @keyframes spin-rotate {
-  /* line 8, src/animations/semi-circle-spin.scss */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -6078,8 +5195,6 @@
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
-  /* line 11, src/animations/semi-circle-spin.scss */
   50% {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -6087,8 +5202,6 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
-
-  /* line 14, src/animations/semi-circle-spin.scss */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -6097,7 +5210,6 @@
     transform: rotate(360deg);
   }
 }
-
 /* line 19, src/animations/semi-circle-spin.scss */
 .semi-circle-spin {
   position: relative;
@@ -6115,7 +5227,7 @@
   -o-animation: spin-rotate 0.6s 0s infinite linear;
   -ms-animation: spin-rotate 0.6s 0s infinite linear;
   animation: spin-rotate 0.6s 0s infinite linear;
-  background-image: linear-gradient(transparent 0%, transparent 70%, #ffffff 30%, #ffffff 100%);
+  background-image: linear-gradient(transparent 0%, transparent 70%, #fff 30%, #fff 100%);
   width: 100%;
   height: 100%;
 }

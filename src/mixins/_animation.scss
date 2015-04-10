@@ -1,4 +1,4 @@
-@import "browser-prefix-list";
+//@import "browser-prefix-list";
 
 @mixin animation-name ($x) {
   @each $b in $browserPrefixList {

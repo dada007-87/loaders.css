@@ -24,7 +24,7 @@ $amount: 30px;
   }
 }
 
-@keyframes ball-zag-deflect {
+@include keyframes(ball-zag-deflect) {
   17% {
     @include transform(translate($amount/2, $amount));
   }

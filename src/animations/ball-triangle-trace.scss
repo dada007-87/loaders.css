@@ -15,7 +15,7 @@ $amount: 50px;
   }
 }
 
-@keyframes ball-triangle-path-2 {
+@include keyframes(ball-triangle-path-2) {
   33% {
     @include transform(translate($amount / 2, $amount));
   }
@@ -27,7 +27,7 @@ $amount: 50px;
   }
 }
 
-@keyframes ball-triangle-path-3 {
+@include keyframes(ball-triangle-path-3) {
   33% {
     @include transform(translate(-$amount, 0px));
   }

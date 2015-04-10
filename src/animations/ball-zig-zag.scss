@@ -15,7 +15,7 @@ $amount: 30px;
   }
 }
 
-@keyframes ball-zag {
+@include keyframes(ball-zag) {
   33% {
     @include transform(translate($amount/2, $amount));
   }

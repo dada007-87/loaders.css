@@ -1,4 +1,7 @@
-@import "browser-prefix-list";
+$browserPrefixList: "-webkit-",
+"-moz-",
+"-o-",
+"";
 
 @mixin keyframes($animation-name) {
   @-webkit-keyframes #{$animation-name} {

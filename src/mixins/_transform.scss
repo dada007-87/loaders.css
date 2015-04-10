@@ -1,4 +1,8 @@
-@import "browser-prefix-list";
+$browserPrefixList: "-webkit-",
+"-moz-",
+"-ms-",
+"-o-",
+"";
 
 //generic transform
 @mixin transform($transforms) {

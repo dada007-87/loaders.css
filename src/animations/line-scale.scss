@@ -1,7 +1,7 @@
 @import '../variables';
 @import '../mixins';
 
-@keyframes line-scale {
+@include keyframes(line-scale) {
   0% {
     @include transform(scaley(1.0));
   }
